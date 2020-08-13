@@ -1,0 +1,34 @@
+site_name: Curso de Bitcoin
+nav:
+        - 0. Introducción: index.md
+        - 1. Manos a la obra: 1-como.md
+        - 2. ¿Que es bitcoin?: 2-que.md
+        - 3. ¿Porque bitcoin?: 3-porque.md
+        - 4. ¿De donde venimos?: 4-dedonde.md
+        - 5. ¿A donde vamos?: 5-adonde.md
+        - 6. ¿Quién está detras de bitcoin?: 6-quien.md
+        - 7. Riesgos: 7-riesgos.md
+        - Notebook: notebook.ipynb
+        - About: about.md
+
+theme: material
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+plugins:
+  - search
+  - mkdocs-jupyter
+  - bibtex:
+      bib_file: "refs.bib"
+      cite_style: "pandoc"
+  - mermaid2:
+      arguments:
+          theme: 'dark'

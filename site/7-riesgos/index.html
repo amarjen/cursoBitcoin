@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../assets/images/favicon.png" rel="shortcut icon"/>
+<meta content="mkdocs-1.1.2, mkdocs-material-5.5.3" name="generator"/>
+<title>7. Riesgos - Curso de Bitcoin</title>
+<link href="../assets/stylesheets/main.947af8d5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+</head>
+<body dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#leccion-7-riesgos">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header-nav md-grid">
+<a aria-label="Curso de Bitcoin" class="md-header-nav__button md-logo" href=".." title="Curso de Bitcoin">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
+</a>
+<label class="md-header-nav__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header-nav__title" data-md-component="header-title">
+<div class="md-header-nav__ellipsis">
+<span class="md-header-nav__topic md-ellipsis">
+            Curso de Bitcoin
+          </span>
+<span class="md-header-nav__topic md-ellipsis">
+            
+              7. Riesgos
+            
+          </span>
+</div>
+</div>
+<label class="md-header-nav__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" data-md-state="active" name="query" placeholder="Search" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</label>
+<button aria-label="Clear" class="md-search__icon md-icon" data-md-component="search-reset" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+</button>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Curso de Bitcoin" class="md-nav__button md-logo" href=".." title="Curso de Bitcoin">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
+</a>
+    Curso de Bitcoin
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href=".." title="0. Introducción">
+      0. Introducción
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../1-como/" title="1. Manos a la obra">
+      1. Manos a la obra
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-que/" title="2. ¿Que es bitcoin?">
+      2. ¿Que es bitcoin?
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../3-porque/" title="3. ¿Porque bitcoin?">
+      3. ¿Porque bitcoin?
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../4-dedonde/" title="4. ¿De donde venimos?">
+      4. ¿De donde venimos?
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../5-adonde/" title="5. ¿A donde vamos?">
+      5. ¿A donde vamos?
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../6-quien/" title="6. ¿Quién está detras de bitcoin?">
+      6. ¿Quién está detras de bitcoin?
+    </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+        7. Riesgos
+        <span class="md-nav__icon md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"></path></svg>
+</span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./" title="7. Riesgos">
+      7. Riesgos
+    </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#esquemas-ponzi">
+    Esquemas ponzi
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#robos-a-casas-de-cambio">
+    Robos a casas de cambio
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#riesgos-de-custodia-personal">
+    Riesgos de custodia personal
+  </a>
+<nav aria-label="Riesgos de custodia personal" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#perdida-de-acceso-a-las-claves-privadas">
+    Pérdida de acceso a las claves privadas
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ataque-fisico">
+    Ataque físico
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mitigacion">
+    Mitigación
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#riesgos-legales">
+    Riesgos legales
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../notebook/" title="Notebook">
+      Notebook
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../about/" title="About">
+      About
+    </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#esquemas-ponzi">
+    Esquemas ponzi
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#robos-a-casas-de-cambio">
+    Robos a casas de cambio
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#riesgos-de-custodia-personal">
+    Riesgos de custodia personal
+  </a>
+<nav aria-label="Riesgos de custodia personal" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#perdida-de-acceso-a-las-claves-privadas">
+    Pérdida de acceso a las claves privadas
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ataque-fisico">
+    Ataque físico
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mitigacion">
+    Mitigación
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#riesgos-legales">
+    Riesgos legales
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content">
+<article class="md-content__inner md-typeset">
+<h1 id="leccion-7-riesgos">Lección 7: Riesgos</h1>
+<p>La inversión en bitcoin no está exenta de riesgos, no solo comparte los mismos riesgos que cualquier otro tipo de inversión tradicional, sino que al carecer de posibilidad de recurso las consecuencias suelen ser fatales, por lo que es que es preciso ser conscientes de ellos con el fin de protegerse adecuadamente y mitigar sus efectos negativos.</p>
+<p>A continuación se repasa los casos más prominentes de esquemas ponzi relacionados con criptomonedas, robos a gran escala de bitcoin sufridos en casas de cambio y otros riesgos.</p>
+<h2 id="esquemas-ponzi">Esquemas ponzi</h2>
+<ul>
+<li>BITCONNECT</li>
+<li>ONECOIN</li>
+<li>ICOs</li>
+</ul>
+<h2 id="robos-a-casas-de-cambio">Robos a casas de cambio</h2>
+<p>Las casas de cambio son vehículos fundamentales para acceder a liquidez, sin embargo, al tender a concentrar una parte importante de la oferta de bitcoin se convierten fácilmente en puntos débiles del sistema, siendo objetivos tanto por ataques externos de hackers, como internos por empleados traidores o los propios dueños.</p>
+<ul>
+<li>2018 COINCHECK - $500 Millones (NEM)</li>
+<li>2013 MT GOX - $460 Millones (850000 BTC)</li>
+<li>2018 QUADRIGACX - $190 (26350 BTC)</li>
+<li>2016 BITFINEX - $77 Millones (120000 BTC)</li>
+</ul>
+<p><strong>Moraleja:</strong> <code>Si no controlas tus claves privadas, no son tus bitcoins.</code></p>
+<p>La forma de mitigar este riesgo es bien sencilla: no dejando nunca fondos en custodia en una casa de cambios. Si es necesario utilizarlas, que sea durante el mínimo tiempo indispensable para ejecutar la transacción.
+Más recomendamente es utilizar mecanismos de compra-venta <em>peer-to-peer</em>, como la aplicación <code>Bisq</code> o el servicio online <code>hodlhodl.com</code></p>
+<h2 id="riesgos-de-custodia-personal">Riesgos de custodia personal</h2>
+<p>Es posible evitar el riesgo de contrapartida para no depender de la seguridad de terceros como casas de cambio, no obstante, esto requiere de responsabilidad porque en caso de pérdida no hay posibilidad de recurso. La lección fundamental para evitar ser víctima de perder tus fondos por un robo de una casa de cambio es controlar tus propios bitcoin.</p>
+<h3 id="perdida-de-acceso-a-las-claves-privadas">Pérdida de acceso a las claves privadas</h3>
+<p>En caso de pérdida de acceso a las claves privadas, por carecer de un respaldo adecuadro suele ser fatal.</p>
+<p>Que no te pase lo que a James Howell que tenía 7500 bitcoin en un <a href="https://www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site">disco duro que acabó en el vertedero.</a></p>
+<p>O a Stone Man, un usuario de reddit, que tras adquirir 9000 bitcoin en 2010 y trasnferirlos a una cartera en su ordenador <a href="https://satoshi.nakamotoinstitute.org/posts/bitcointalk/threads/175/">los perdió por siempre.</a></p>
+<p>Para mitigar este riesgo es util disponer un respaldo en un soporte robusto que tenga protección contra fuego/agua/corrosión/presión, por ejemplo, mediante la grabación física en una placa de acero inoxidable.
+Ver comparativa en https://jlopp.github.io/metal-bitcoin-storage-reviews/ 
+Productos recomendado:</p>
+<ul>
+<li><a href="https://shop.blockark.de/steelwallet">Steelwallet</a></li>
+<li><a href="https://bitcoinseedbackup.com/">Bitcoinseedbackup.com</a></li>
+</ul>
+<h3 id="_1"></h3>
+<h3 id="ataque-fisico">Ataque físico</h3>
+<p><img alt="Wrench attack" src="../wrenchattack.png"/></p>
+<blockquote>
+<p><a href="https://xkcd.com/538/">https://xkcd.com/538/</a></p>
+</blockquote>
+<h3 id="mitigacion">Mitigación</h3>
+<ul>
+<li>Perfil bajo</li>
+<li>Mejorar la seguridad doméstica</li>
+<li>Disponer de una segunda contraseña con pocos fondos
+...</li>
+</ul>
+<h2 id="riesgos-legales">Riesgos legales</h2>
+<ul>
+<li>Regulaciones AML/KYC</li>
+<li>Fiscalidad</li>
+</ul>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-nav">
+<nav aria-label="Footer" class="md-footer-nav__inner md-grid">
+<a class="md-footer-nav__link md-footer-nav__link--prev" href="../6-quien/" rel="prev" title="6. ¿Quién está detras de bitcoin?">
+<div class="md-footer-nav__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer-nav__title">
+<div class="md-ellipsis">
+<span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                6. ¿Quién está detras de bitcoin?
+              </div>
+</div>
+</a>
+<a class="md-footer-nav__link md-footer-nav__link--next" href="../notebook/" rel="next" title="Notebook">
+<div class="md-footer-nav__title">
+<div class="md-ellipsis">
+<span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Notebook
+              </div>
+</div>
+<div class="md-footer-nav__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+</div>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+          Material for MkDocs
+        </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="../assets/javascripts/vendor.c3dc8c49.min.js"></script>
+<script src="../assets/javascripts/bundle.f9edbbd5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+<script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.8e2cddea.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+<script src="../javascripts/config.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
