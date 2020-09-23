@@ -1,6 +1,6 @@
 # ¿Quién está detrás de bitcoin?
 
-En esencia, bitcoin es solo un proyecto de software libre. Fue concebido por un individuo o grupo de desarrolladores conocido por el pseudónimo de Satoshi Nakamoto. A día de hoy, dicho personaje 
+Bitcoin fue concebido por un programador/a o grupo que se hacía conocer por el pseudónimo de Satoshi Nakamoto. A día de hoy, es un misterio la identidad o paradero de dicho personaje, un día dejó de su último mensaje en un foro indicando que el proyecto se quedaba en buenas manos y se ocuparía de otros proyectos, desde entonces se desvaneció.
 
 ## Ecosistema
 
