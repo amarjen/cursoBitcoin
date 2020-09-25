@@ -28,7 +28,7 @@ markdown_extensions:
 plugins:
   - search
   - mkdocs-jupyter:
-          execite: true
+          execute: true
   - bibtex:
       bib_file: "refs.bib"
       cite_style: "pandoc"
