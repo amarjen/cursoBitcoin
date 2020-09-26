@@ -4,7 +4,6 @@ nav:
         - 0. Introducción: index.md
         - 1. Manos a la obra: 1-como.md
         - 2. ¿Que es bitcoin?: 2-que.md
-        - Funcin Hash: hash256.ipynb
         - 3. ¿Porque bitcoin?: 3-porque.md
         - 4. ¿De donde venimos?: 4-dedonde.md
         - 5. ¿A donde vamos?: 5-adonde.md
@@ -27,8 +26,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - mkdocs-jupyter:
-          execute: true
   - bibtex:
       bib_file: "refs.bib"
       cite_style: "pandoc"
